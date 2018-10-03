@@ -94,18 +94,6 @@ font-family: Georgia, Times, Times New Roman, serif;
     float:right;
 }
 
-.img3{
-    position: relative;
-    top:-510px;
-    right:-400px;
-}
-
-.img4{
-    position: relative;
-    top:-610px;
-    right:-400px;
-}
-
 @media screen and (max-width: 980px) {      
     .box1{width:100%;}
     .box2{width:80%;}
