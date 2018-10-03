@@ -105,3 +105,22 @@ font-family: Georgia, Times, Times New Roman, serif;
     top:-610px;
     right:-400px;
 }
+
+@media screen and (max-width: 980px) {      
+    .box1{width:100%;}
+    .box2{width:80%;}
+    h1{margin-left:10%;}
+ }
+
+@media screen and (max-width: 768px) {   
+    .box1{width:100%;}
+    .box2{width:80%;}
+    h1{margin-left:10%;}
+    }
+
+@media screen and (max-width: 640px) {   
+    .box1{width:100%;
+        position:static;}  
+    .box2{width:80%;}
+    h1{margin-left:10%;}
+    }
