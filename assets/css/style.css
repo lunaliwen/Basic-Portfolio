@@ -1,7 +1,7 @@
 body{
-    font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
-    color: #777777;
-    background: beige;
+    font-family:Arial, Helvetica Neue, Helvetica, sans-serif !important;
+    color: #777777 !important;
+    background: beige !important;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,7 @@ body{
 .box1{
     background: #ffffff;
     margin: 0;
+    height: 80px;
 }
 
 .box2{
@@ -17,47 +18,50 @@ body{
     background: #ffffff;
     padding: 1px 15px;
     font-size:14px;
-    height: 1700px;
+    height: 1200px;
 }
+
 h1{
-    background: #4aaaa5;
-    width: 200px;
-    color: #ffffff;
-    text-align: center;
-    font-family: Georgia, Times, Times New Roman, serif;
-    height: 50px;
-    padding: 30px;
-    margin: 0px 100px 15px 270px;
+    background: #4aaaa5 !important;
+    width: 250px !important;
+    height: 80px !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    font-family: Georgia, Times, Times New Roman, serif !important;
+    padding: 15px !important;
+    margin: 0px 100px 15px 270px !important;
+    font-weight: bold !important;
 }
 
 h2{
-    color:#4aaaa5;
-    font-family: Georgia, Times, Times New Roman, serif;
-    font-size:30px;
+    color:#4aaaa5 !important;
+    font-family: Georgia, Times, Times New Roman, serif !important;
+    font-size:30px !important;
+    font-weight: bold !important;
 }
 
 h3{
-    color:#ffffff;
-    background: #4aaaa5;
-    width: 100px;
-    height: 20px;
-    padding: 20px;
-    text-align:center;
+    color:#ffffff !important;
+    background: #4aaaa5 !important;
+    width: 100px !important;
+    height: 20px !important;
+    padding: 20px !important;
+    text-align:center !important;
 }
 
 .contact{
-position: absolute;
-top:20px;
-right: 8%;
-color: #777777
-font-family: Georgia, Times, Times New Roman, serif;
-}
-
+    position: absolute;
+    top:20px;
+    right: 8%;
+    color: #777777;
+    font-family: Georgia, Times, Times New Roman, serif;
+    }
+    
 .portfolio{
     position: absolute;
     top:20px;
     right: 15%;
-    color: #777777
+    color: #777777;
     font-family: Georgia, Times, Times New Roman, serif;
 }
 
@@ -65,7 +69,7 @@ font-family: Georgia, Times, Times New Roman, serif;
     position: absolute;
     top:20px;
     right: 22%;
-    color: #777777
+    color: #777777;
     font-family: Georgia, Times, Times New Roman, serif;
 }
 
